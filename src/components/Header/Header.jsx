@@ -50,7 +50,7 @@ export default function Header() {
       </div>
 
       {/* top nav end */}
-
+        <div className="botNAV">
       <div className="container">
         <nav className="navbar navbar-expand-lg py-3 Rubik">
           <div className="container-fluid">
@@ -200,6 +200,7 @@ export default function Header() {
             </div>
           </div>
         </nav>
+      </div>
       </div>
     </>
   );

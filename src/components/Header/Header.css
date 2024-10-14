@@ -7,6 +7,10 @@
     max-width: 1295px;
 }
 
+.botNAV .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  max-width: 1320px;
+}
+
 .nav-link {
     color: black;
     text-transform: uppercase;
@@ -56,6 +60,18 @@
         display: none;
     }
 }
+
+@media (max-width: 425px) {
+  .navbar-brand img {
+    height: 34px;
+  }
+
+
+}
+
+
+
+
 
 
 
