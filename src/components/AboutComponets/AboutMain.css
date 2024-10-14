@@ -1,0 +1,86 @@
+.PORT{
+    background: #F9E6F0;
+
+}
+
+
+.py-port{
+    padding: 120px 0;
+}
+
+
+.PORT h2{
+  
+font-size: 17px;
+font-weight: 700;
+
+}
+
+
+.mb-60{
+    margin-bottom: 60px;
+}
+
+
+.Info-paraBack{
+    background: #009379;
+    color: #F6DCE9;
+}
+
+.INFO h1{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 1px;
+    }
+    
+
+.INFO p{
+
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+
+}
+
+
+@media (max-width: 1440px) {
+    .PORT .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 720px;
+    }
+
+    .INFO .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 720px;
+    }
+ 
+
+}
+
+
+
+@media (max-width: 1024px) {
+    .PORT .container, .container-lg, .container-md, .container-sm {
+        max-width: 315px;
+    }
+
+    .PORT .col-lg-4 ,.col-lg-8{
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .mt-1024-port{
+        margin-top: 60px!important;
+    }
+    
+    /* info */
+
+    .INFO .container, .container-lg, .container-md, .container-sm {
+        max-width: 315px;
+    }
+
+
+    /* info */
+    
+
+}
+

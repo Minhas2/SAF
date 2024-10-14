@@ -1,0 +1,27 @@
+.IdeaBack{
+    background-color: #F2F2F2;
+}
+
+.IdeaBack p {
+    max-width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+/*  */
+@media (max-width: 600px) {
+    .IdeaBack p {
+        max-width: 100%;
+    }
+    
+    
+    
+
+}
