@@ -353,14 +353,16 @@ line-height: 30px;
 }
 
 @media (max-width: 425px) {
-    .eclipse-image{
-        height: 300px;
+    .eclipse-image {
+        height: 240px;
     }
 
     .Port-Hero h1 {
-        font-size: 55px;
+        font-size: 39px;
         font-weight: 600;
-        line-height: 54px;
+        line-height: 40px;
     }
+
+    
 
 }
