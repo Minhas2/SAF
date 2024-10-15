@@ -1,0 +1,47 @@
+.mb-292{
+    margin-bottom: 292px;
+}
+
+
+
+.PRO h1{
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.PRO h2{
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 72.61px;
+}
+    
+.border-port{
+    border: 5px solid;
+
+border-image-source: linear-gradient(0deg, #000000, #000000),
+linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+
+
+}
+
+
+@media (max-width: 425px) {
+    .PRO h1 {
+        font-size: 30px;
+        line-height: 25px;
+        font-weight: 400;
+    }
+
+    .PRO h2 {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 26.61px;
+    }
+
+    .mb-292{
+        margin-bottom: 50px;
+    }
+
+}
+
+

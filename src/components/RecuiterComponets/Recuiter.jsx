@@ -151,11 +151,20 @@ export default function Recuiter() {
           Thanks for reading! <br /> 😁
         </h3>
 
-        
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
 
 
       
-      </div>
-    </div>
   );
 }

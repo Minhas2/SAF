@@ -6,6 +6,7 @@ import Homepage from './components/Pages/Homepage';
 import PortfolioPage from './components/Pages/PortfolioPage';
 import AboutPage from './components/Pages/AboutPage';
 import Recuiter from './components/RecuiterComponets/Recuiter';
+import Port from './components/Pages/Port';
 
 
 
@@ -20,10 +21,10 @@ function App() {
         <Route path="/" element={  <Homepage/>} />
         <Route path="/portfolio" element={<PortfolioPage/>} />
         <Route path="/about" element={<AboutPage/>} />
+        <Route path="/Recuriter" element={<Recuiter />} />
        
 
-        <Route path="/Recuriter" element={<Recuiter />} />
-        {/* <Route path="/services" element={<Services />} /> */}
+        <Route path="//PORT" element={<Port />} />
      
       </Routes>
      <Footer/>

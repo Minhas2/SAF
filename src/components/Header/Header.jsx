@@ -102,6 +102,7 @@ export default function Header() {
                 </li>
 
                 {/* Dropdown for Services */}
+                
                 {/* <li className={`nav-item dropdown ${isDropdownActive() ? "active" : ""}`}>
                   <NavLink
                     className="nav-link dropdown-toggle"
@@ -184,18 +185,18 @@ export default function Header() {
                     Recuriter
                   </NavLink>
                 </li>
-                {/* <li className="nav-item">
+                <li className="nav-item">
                   <NavLink
                     className="nav-link"
-                    to="/contact"
+                    to="/PORT"
                     onClick={closeNavbar}
                     style={({ isActive }) => ({
                       color: isActive ? "#F07A75" : "inherit", // Apply the color when active
                     })}
                   >
-                    Contact
+                   Sample
                   </NavLink>
-                </li> */}
+                </li>
               </ul>
             </div>
           </div>
