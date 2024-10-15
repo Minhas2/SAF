@@ -5,6 +5,7 @@ import Footer from './components/Footer/Footer';
 import Homepage from './components/Pages/Homepage';
 import PortfolioPage from './components/Pages/PortfolioPage';
 import AboutPage from './components/Pages/AboutPage';
+import Recuiter from './components/RecuiterComponets/Recuiter';
 
 
 
@@ -21,8 +22,8 @@ function App() {
         <Route path="/about" element={<AboutPage/>} />
        
 
-        {/* <Route path="/contact" element={<Contact />} />
-        <Route path="/services" element={<Services />} /> */}
+        <Route path="/Recuriter" element={<Recuiter />} />
+        {/* <Route path="/services" element={<Services />} /> */}
      
       </Routes>
      <Footer/>

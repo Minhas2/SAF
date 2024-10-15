@@ -1,0 +1,89 @@
+.REC{
+    background-color: #EBEBEB;
+}
+
+.inter{
+    font-family: Inter;
+}
+
+.REC h1{
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: -0.9620000123977661px;
+}
+
+.REC h2{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.8840000033378601px;
+}
+
+.REC h3{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.5600000023841858px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.w-R{
+    width: 64px;
+    height: 52px;
+}
+
+.RecMain{
+    width: 100%;
+}
+
+.border-icon{
+    border-width: 1px, 0px, 1px, 0px;
+
+border-style: solid;
+
+border-color: #F2F2F2;
+
+
+}
+
+.border-icon p{
+font-size: 13px;
+font-weight: 400;
+}
+
+
+.Rec-info em{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.Rec-info span{
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.Rec-info p{
+    font-size: 14px;
+    font-weight: 400;
+}
+    
+
+
+
+
+
+@media (max-width: 1440px) {
+    .REC .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 680px;
+    }
+
+
+}
+
+

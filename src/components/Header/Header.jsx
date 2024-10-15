@@ -172,18 +172,18 @@ export default function Header() {
                     Portfolio
                   </NavLink>
                 </li>
-                {/* <li className="nav-item">
+                <li className="nav-item">
                   <NavLink
                     className="nav-link"
-                    to="/cv"
+                    to="/Recuriter"
                     onClick={closeNavbar}
                     style={({ isActive }) => ({
                       color: isActive ? "#F07A75" : "inherit", // Apply the color when active
                     })}
                   >
-                    CV & Awards
+                    Recuriter
                   </NavLink>
-                </li> */}
+                </li>
                 {/* <li className="nav-item">
                   <NavLink
                     className="nav-link"
